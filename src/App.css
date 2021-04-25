@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+form {
+  padding: 15px;
+}
+
+input[type="file"] {
+  width: 800px;
+  height: 400px;
+  cursor: pointer;
+}
+
+.select-block {
+  position: absolute;
+  height: 400px;
+  width: 800px;
+  background-color: white;
+  pointer-events: none;
+  text-align: center;
+  border: solid black 2px;
+  border-radius: 10px;
+  line-height: 400px;
+  font-size: 28px;
+}
+
+.image-element {
+  width: 200px;
+  height: 200px;
+  border: solid 1px gray;
+  margin: 40px;
+}
+
+.preview-block {
+  position: relative;
+  display: inline-block;
+}
+
+.preview-closer {
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+}
+.fa-times-circle {
+  height: 30px !important;
+  width: 30px !important;
+}
